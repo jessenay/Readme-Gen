@@ -54,13 +54,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-async function writeToFile(fileName, data) {
-    try {
-        await fs.writeFile(fileName, data);
-        console.log('File created successfully!');
-    } catch (err) {
-        console.error('Failed to write file:', err);
-    }
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error(err) : console.log('Success! Your README.md file has been generated!'));
 }
 
 
@@ -76,5 +72,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-module.exports = init;
