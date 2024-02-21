@@ -7,23 +7,24 @@ function generateMarkdown(data) {
   ## Description
     ${data.description}
 
-    ## Installation
+    
+## Installation
     ${data.installation}
 
-    ## Usage
+## Usage
     ${data.usage}
 
-    ## License
+## License
     ${renderLicenseBadge(data.license)}
     ${renderLicenseSection(data.license)}
 
-    ## Contributing
+## Contributing
     ${data.contributing}
 
-    ## Tests
+## Tests
     ${data.tests}
 
-    ## Questions
+## Questions
     If you have any questions, please feel free to contact me at ${data.email}. 
     You can also find me on GitHub as ${data.github} at (https://github.com/${data.github}).
     `;
