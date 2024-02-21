@@ -4,14 +4,6 @@
   ## Description
   This project is a CLI application that will prompt for some information that then takes that information and generates a professional ReadMe file for your project.
   
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  
   ## Installation
   Must run npm i to install the correct packages for usage.
   
